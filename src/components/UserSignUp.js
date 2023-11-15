@@ -22,17 +22,6 @@ const UserSignUp = () => {
     setUserData((prevUserData) => ({ ...prevUserData, [name]: value }));
   }
 
-  // code to update the nested address object
-  // function processAddress(e) {
-  //   const { value, name } = e.target;
-  //   setUserData((prevUserData) => ({
-  //     ...prevUserData,
-  //     address: {
-  //       [name]: value,
-  //     },
-  //   }));
-  // }
-
   return (
     <div>
       <h1>Sign Up Now</h1>
